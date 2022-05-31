@@ -1,0 +1,7 @@
+un componente permette di suddividere la UI in pezzetti più piccoli. concetto di usabilità.
+i componenti che si possono riutilizzare
+<Profilo />
+con lettera maiuscola
+perchè i tag html sono case sensitive
+
+i tag possono avere delle proprietà, all'interno del componente si possono leggere le PROPS che sono oggetti funzioni, stringhe e numeri che vogliamo inviare al componente react

@@ -1,0 +1,1 @@
+file che possono aiutare nella realizzazione del progetto. le risorse che devono essere generiche per il progetto. oppure file con un botto di funzioni che vengono richiamate ovunque (ingegnerizzazione del software)

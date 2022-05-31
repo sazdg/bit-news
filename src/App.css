@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+body {
+  font-family: 'Questrial', sans-serif;
+  background-color: #8fa1ff;
+  color:aliceblue;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.App {
+  text-align: center;
+  flex: 1 0 auto;
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+input {
+  padding: 5px;
+  margin: 10px;
+  border: 1px solid #cecece;
+  border-radius: 0.25rem;
+}
+table {
+  margin: auto;
+  width: 30%;
+}
+/* 2532x1170 pixels at 460ppi */
+@media only screen 
+    and (device-width: 390px) 
+    and (-webkit-device-pixel-ratio: 3) {
+      table {
+        width: 90%;
+      }
+    }
+
+span {
+  font-size: 1rem;
+}
+
+h3, th {
+  color: #3843d0;
+}
+
+h3 {
+  border: 3px solid #3843d0;
+  border-radius: 20px;
+  width: 60%;
+  margin: 1rem auto;
+  padding: 5px;
+}
+
+.reload {
+  background-color: #ffc466;
+  color: #3843d0;
+  font-weight: bold;
+  padding: 1em 1.5rem;
+  margin: 1rem;
+  border-radius: 20px;
+  border: 0px;
+  box-shadow: 5px 10px #cecece;
+}
+
+/*sticky footer*/
+footer {
+  background-color: #3843d0;
+  color: #ffc466;
+  margin-top: 2rem;
+  padding: 1rem;
+  font-weight: 500;
+  flex-shrink: 0;
+}
+
+ul {
+  list-style-type: none;
+  list-style-position: outside;
+  padding: 2rem 0;
+  margin: 0;
+  background-color: #3843d0;
+}
+
+li {
+  display: inline;
+  padding: 0 1rem;
+}
+.link {
+  color: #fff;
+  padding: 5px 10px;
+  text-decoration: none;
+  border: 3px solid #fff;
+  border-radius: 20px;
+}
+.link:hover, .link:focus {
+  color: #ffc466;
+  border: 3px solid #ffc466;
+}
