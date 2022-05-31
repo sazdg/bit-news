@@ -64,6 +64,10 @@ h3 {
   box-shadow: 5px 10px #cecece;
 }
 
+.reload:hover {
+  cursor: pointer;
+}
+
 /*sticky footer*/
 footer {
   background-color: #3843d0;
@@ -96,4 +100,17 @@ li {
 .link:hover, .link:focus {
   color: #ffc466;
   border: 3px solid #ffc466;
+}
+
+table {
+  border-collapse: collapse;
+}
+td, th {
+  width: 100%;
+  text-align: -webkit-auto;
+  padding: 10px;
+  border-bottom: 1px solid #3843d0;
+}
+tr:hover {
+  background-color: #ffc466;
 }

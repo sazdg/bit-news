@@ -46,7 +46,7 @@ class Trending extends Component {
                     <h3>Trending last 24h</h3>
                     <span>Top-7 trending coins on CoinGecko as searched by users in the last 24 hours (Ordered by most popular first)</span>
 
-                    <table>
+                    <table style={{width: '30%'}}>
                         <tr>
                             <th>Symbol</th>
                             <th>Name</th>
