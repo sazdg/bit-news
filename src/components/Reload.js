@@ -3,7 +3,7 @@ import "../App.css";
 function Reload() {
 
     const Aggiorna = () => {
-        window.location.reload();
+        window.location.reload(false);
     }
 
     return (
