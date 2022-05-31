@@ -1,6 +1,6 @@
 import '../App.css'; 
 import React from "react";
-import { Router, Route, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import Home from '../screen/Home.js';
 import Pagina2 from '../screen/Pagina2.js';
 

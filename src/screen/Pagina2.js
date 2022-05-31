@@ -5,7 +5,7 @@ function Pagina2(){
     return(
         <div>
             <p>
-                Webpage Under Construction...
+                Webpage Under Construction...<br/>
                 still nothing...
             </p>
         </div>
