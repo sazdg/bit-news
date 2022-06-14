@@ -30,7 +30,6 @@ function Favcoins(){
                 </tr>
             </table>
             
-            <Reload />
         </div>
     );
 }
